@@ -1,4 +1,13 @@
-﻿using System.Collections;
+﻿/*********************************************
+NAME: Elijah Tong
+Student Number: 101126281
+Source File:BulletManager.cs
+Last Modified: 2020-10-21
+Description: Spawns bullets depending on the type that needs to be spawned or randomly rolls for which one will be spawned. Gives each bullet a damage value. 
+Previous Version: Spawns bullets depending on the type that needs to be spawned or randomly rolls for which one will be spawned. Gives each bullet a damage value. 
+Changes: Added Header
+*********************************************/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

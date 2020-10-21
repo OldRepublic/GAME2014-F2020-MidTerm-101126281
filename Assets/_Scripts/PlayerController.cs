@@ -1,4 +1,13 @@
-﻿using System.Collections;
+﻿/*********************************************
+NAME: Elijah Tong
+Student Number: 101126281
+Source File:PlayerController.cs
+Last Modified: 2020-10-21
+Description: Checks for touch inputs and moves the player vertically to the position y of that location also starts player in a position.
+Restricts movement so it stays within the screen borders and fires bullets over time.
+Previous Version: Also checked for touch inputs but moved players horizonatally to the x of the touched location. Also restricted movement so that the player stayed on screen and fired bullets.
+*********************************************/
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEditor;

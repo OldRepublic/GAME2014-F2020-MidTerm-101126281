@@ -1,4 +1,15 @@
-﻿using System.Collections;
+﻿/*********************************************
+NAME: Elijah Tong
+Student Number: 101126281
+Source File:BulletManager.cs
+Last Modified: 2020-10-21
+Description: Keeps track of how many bullets are in play and ensure there are not more than the max allowed number. Recieves bullets that have gone out of bounds and puts them back into the queue
+for later use.
+Previous Version: Keeps track of how many bullets are in play and ensure there are not more than the max allowed number. Recieves bullets that have gone out of bounds and puts them back into the queue
+for later use.
+Changes: Added Header
+*********************************************/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

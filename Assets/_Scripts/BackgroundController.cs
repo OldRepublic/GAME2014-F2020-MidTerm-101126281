@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*********************************************
+NAME: Elijah Tong
+Student Number: 101126281
+Source File:BackgroundController.cs
+Last Modified: 2020-10-21
+Description: This creates a horizontally scrolling background that resets to it's original positions once it reaches a specific x position
+Previous Version: This used to scroll vertically and reset at a specific y position
+*********************************************/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,11 +24,13 @@ public class BackgroundController : MonoBehaviour
 
     private void _Reset()
     {
+        //return background positions to start positions so that it may loop scroll again
         transform.position = new Vector3(HorizontalBoundary, 0.0f);
     }
 
     private void _Move()
     {
+        //moves the background so that it will look like it is scrolling in game
         transform.position -= new Vector3(HorizontalSpeed, 0.0f) * Time.deltaTime;
     }
 
