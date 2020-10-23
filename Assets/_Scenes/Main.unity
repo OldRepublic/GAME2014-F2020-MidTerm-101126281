@@ -676,7 +676,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3091073566791249609, guid: 45c2595c122b2d9458587140e3858ea5, type: 3}
       propertyPath: direction
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3091073566791249609, guid: 45c2595c122b2d9458587140e3858ea5, type: 3}
       propertyPath: VerticalBoundary
